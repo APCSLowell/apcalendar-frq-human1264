@@ -57,6 +57,6 @@ public class APCalendar
     int dayelapsed = dayOfYear(month, day, year);
     int first = firstDayOfYear(year);
     first+=dayelapsed % 7;
-    return(first);
+    return(first%7);
   }
 }
